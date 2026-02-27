@@ -1,0 +1,83 @@
+/* Reset default margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+    background-color: #0567fa;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+header h1 {
+    color: #2c3e50;
+}
+
+/* Section */
+section {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+section h2 {
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+li {
+    margin-bottom: 5px;
+}
+
+/* Image */
+/* Styling Foto Profil Modern */
+img {
+    width: 200px;         /* Ukuran lebar tetap */
+    height: 200px;        /* Ukuran tinggi tetap */
+    object-fit: cover;    /* Memotong foto agar tetap proporsional (tidak gepeng) */
+    border-radius: 50%;   /* Membuat foto jadi bulat sempurna */
+    display: block;
+    margin: 25px auto;    /* Jarak atas-bawah dan rata tengah */
+    border: 5px solid #fff; /* Border putih sebagai pemanis */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* Bayangan lembut agar terlihat timbul */
+    transition: transform 0.3s ease; /* Efek animasi saat kursor lewat */
+}
+
+/* Efek saat foto disentuh kursor */
+img:hover {
+    transform: scale(1.05); /* Foto membesar sedikit (zoom in) */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
